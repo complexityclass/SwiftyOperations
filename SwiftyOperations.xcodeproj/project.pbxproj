@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18725305BE7ABFFE136D1229 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187257496756AD28113C08F8 /* AsyncOperation.swift */; };
+		18725D3989566A83A0854121 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187257496756AD28113C08F8 /* AsyncOperation.swift */; };
+		64B2D3DC1BC9393500BCF111 /* Completable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3DB1BC9393500BCF111 /* Completable.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3DD1BC9393500BCF111 /* Completable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3DB1BC9393500BCF111 /* Completable.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3E01BC93A3600BCF111 /* MyAsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3DF1BC93A3600BCF111 /* MyAsyncOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3E11BC93A3600BCF111 /* MyAsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3DF1BC93A3600BCF111 /* MyAsyncOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3E31BC95D5000BCF111 /* ChainableOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3E21BC95D5000BCF111 /* ChainableOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3E41BC95D5000BCF111 /* ChainableOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3E21BC95D5000BCF111 /* ChainableOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3E61BC95E5500BCF111 /* CompoundOperationBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3E51BC95E5500BCF111 /* CompoundOperationBase.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3E71BC95E5500BCF111 /* CompoundOperationBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3E51BC95E5500BCF111 /* CompoundOperationBase.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3EA1BC965E000BCF111 /* ChainableOperationInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3E91BC965E000BCF111 /* ChainableOperationInput.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3EB1BC965E000BCF111 /* ChainableOperationInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3E91BC965E000BCF111 /* ChainableOperationInput.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3ED1BC9685300BCF111 /* ChainableOperationOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3EC1BC9685300BCF111 /* ChainableOperationOutput.swift */; settings = {ASSET_TAGS = (); }; };
+		64B2D3EE1BC9685300BCF111 /* ChainableOperationOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3EC1BC9685300BCF111 /* ChainableOperationOutput.swift */; settings = {ASSET_TAGS = (); }; };
 		64C2AF6A1BC92FF7008EFBD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2AF691BC92FF7008EFBD5 /* AppDelegate.swift */; };
 		64C2AF6C1BC92FF7008EFBD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2AF6B1BC92FF7008EFBD5 /* ViewController.swift */; };
 		64C2AF6F1BC92FF7008EFBD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C2AF6D1BC92FF7008EFBD5 /* Main.storyboard */; };
@@ -26,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187257496756AD28113C08F8 /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		64B2D3DB1BC9393500BCF111 /* Completable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Completable.swift; sourceTree = "<group>"; };
+		64B2D3DF1BC93A3600BCF111 /* MyAsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAsyncOperation.swift; sourceTree = "<group>"; };
+		64B2D3E21BC95D5000BCF111 /* ChainableOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainableOperation.swift; sourceTree = "<group>"; };
+		64B2D3E51BC95E5500BCF111 /* CompoundOperationBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompoundOperationBase.swift; sourceTree = "<group>"; };
+		64B2D3E91BC965E000BCF111 /* ChainableOperationInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainableOperationInput.swift; sourceTree = "<group>"; };
+		64B2D3EC1BC9685300BCF111 /* ChainableOperationOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainableOperationOutput.swift; sourceTree = "<group>"; };
 		64C2AF661BC92FF7008EFBD5 /* SwiftyOperations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyOperations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C2AF691BC92FF7008EFBD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C2AF6B1BC92FF7008EFBD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +77,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18725AA9844606AEA705E448 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D3E81BC9655000BCF111 /* Protocols */,
+				187257496756AD28113C08F8 /* AsyncOperation.swift */,
+				64B2D3E51BC95E5500BCF111 /* CompoundOperationBase.swift */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		18725C2A99612F829CB02A5B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18725AA9844606AEA705E448 /* Operations */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		64B2D3DE1BC93A1200BCF111 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D3DF1BC93A3600BCF111 /* MyAsyncOperation.swift */,
+			);
+			name = "Service Layer";
+			sourceTree = "<group>";
+		};
+		64B2D3E81BC9655000BCF111 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D3DB1BC9393500BCF111 /* Completable.swift */,
+				64B2D3E21BC95D5000BCF111 /* ChainableOperation.swift */,
+				64B2D3E91BC965E000BCF111 /* ChainableOperationInput.swift */,
+				64B2D3EC1BC9685300BCF111 /* ChainableOperationOutput.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		64C2AF5D1BC92FF7008EFBD5 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +135,8 @@
 		64C2AF681BC92FF7008EFBD5 /* SwiftyOperations */ = {
 			isa = PBXGroup;
 			children = (
+				64B2D3DE1BC93A1200BCF111 /* Service Layer */,
+				18725C2A99612F829CB02A5B /* Core */,
 				64C2AF691BC92FF7008EFBD5 /* AppDelegate.swift */,
 				64C2AF6B1BC92FF7008EFBD5 /* ViewController.swift */,
 				64C2AF6D1BC92FF7008EFBD5 /* Main.storyboard */,
@@ -196,8 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B2D3EA1BC965E000BCF111 /* ChainableOperationInput.swift in Sources */,
+				64B2D3E01BC93A3600BCF111 /* MyAsyncOperation.swift in Sources */,
+				64B2D3DC1BC9393500BCF111 /* Completable.swift in Sources */,
+				64B2D3E61BC95E5500BCF111 /* CompoundOperationBase.swift in Sources */,
 				64C2AF6C1BC92FF7008EFBD5 /* ViewController.swift in Sources */,
 				64C2AF6A1BC92FF7008EFBD5 /* AppDelegate.swift in Sources */,
+				18725D3989566A83A0854121 /* AsyncOperation.swift in Sources */,
+				64B2D3ED1BC9685300BCF111 /* ChainableOperationOutput.swift in Sources */,
+				64B2D3E31BC95D5000BCF111 /* ChainableOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +272,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B2D3DD1BC9393500BCF111 /* Completable.swift in Sources */,
 				64C2AF7F1BC92FF7008EFBD5 /* SwiftyOperationsTests.swift in Sources */,
+				64B2D3EE1BC9685300BCF111 /* ChainableOperationOutput.swift in Sources */,
+				64B2D3E11BC93A3600BCF111 /* MyAsyncOperation.swift in Sources */,
+				64B2D3E71BC95E5500BCF111 /* CompoundOperationBase.swift in Sources */,
+				64B2D3EB1BC965E000BCF111 /* ChainableOperationInput.swift in Sources */,
+				64B2D3E41BC95D5000BCF111 /* ChainableOperation.swift in Sources */,
+				18725305BE7ABFFE136D1229 /* AsyncOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +459,7 @@
 				64C2AF851BC92FF7008EFBD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64C2AF861BC92FF7008EFBD5 /* Build configuration list for PBXNativeTarget "SwiftyOperationsTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +468,7 @@
 				64C2AF881BC92FF7008EFBD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
