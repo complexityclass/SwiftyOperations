@@ -31,11 +31,10 @@ class AsyncOperation: NSOperation, Completable {
     }
     
     override func main() {
-       
     }
     
     func onComplete(completion: () -> Void) {
         operationStatus = .OperationFinished
+        completion()
     }
-    
 }

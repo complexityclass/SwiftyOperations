@@ -42,6 +42,7 @@ class CompoundOperationBase<T>: AsyncOperation {
         operationQueue.cancelAllOperations()
     }
     
+    
     override func onComplete(completion: () -> Void) {
         completion()
     }
@@ -53,6 +54,7 @@ func <| <T>(left: CompoundOperationBase<T>, right: NSOperation) -> CompoundOpera
     left.operationQueue.addOperation(right)
     return left
 }
+
 
 infix operator ~> { associativity left precedence 180 }
 func ~> <T, U>(left: CompoundOperationBase<T>, right: CompoundOperationBase<U>) -> CompoundOperationBase<U> {
