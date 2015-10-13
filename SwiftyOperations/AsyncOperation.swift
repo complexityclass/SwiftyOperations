@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import ReactiveCocoa
 
 enum AsyncOperationStatus {
     case OperationNotStarted

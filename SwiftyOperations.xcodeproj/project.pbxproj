@@ -30,6 +30,8 @@
 		64C2AF711BC92FF7008EFBD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C2AF701BC92FF7008EFBD5 /* Assets.xcassets */; };
 		64C2AF741BC92FF7008EFBD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C2AF721BC92FF7008EFBD5 /* LaunchScreen.storyboard */; };
 		64C2AF7F1BC92FF7008EFBD5 /* SwiftyOperationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2AF7E1BC92FF7008EFBD5 /* SwiftyOperationsTests.swift */; };
+		64F76A6F1BCC499500F0B4BC /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F76A6E1BCC499500F0B4BC /* Promise.swift */; settings = {ASSET_TAGS = (); }; };
+		64F76A701BCC499500F0B4BC /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F76A6E1BCC499500F0B4BC /* Promise.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,7 @@
 		64C2AF7A1BC92FF7008EFBD5 /* SwiftyOperationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyOperationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C2AF7E1BC92FF7008EFBD5 /* SwiftyOperationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyOperationsTests.swift; sourceTree = "<group>"; };
 		64C2AF801BC92FF7008EFBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F76A6E1BCC499500F0B4BC /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
 		72852C61E3B12FFAFF892303 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7B223BD9C052A46B21C608FF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +103,7 @@
 				64B2D3E81BC9655000BCF111 /* Protocols */,
 				187257496756AD28113C08F8 /* AsyncOperation.swift */,
 				64B2D3E51BC95E5500BCF111 /* CompoundOperationBase.swift */,
+				64F76A6E1BCC499500F0B4BC /* Promise.swift */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
@@ -343,6 +347,7 @@
 				64C2AF6A1BC92FF7008EFBD5 /* AppDelegate.swift in Sources */,
 				64363C631BC98F230055EBC1 /* Observable.swift in Sources */,
 				18725D3989566A83A0854121 /* AsyncOperation.swift in Sources */,
+				64F76A6F1BCC499500F0B4BC /* Promise.swift in Sources */,
 				64B2D3ED1BC9685300BCF111 /* ChainableOperationOutput.swift in Sources */,
 				64B2D3E31BC95D5000BCF111 /* ChainableOperation.swift in Sources */,
 			);
@@ -359,6 +364,7 @@
 				64363C641BC98F230055EBC1 /* Observable.swift in Sources */,
 				64B2D3E71BC95E5500BCF111 /* CompoundOperationBase.swift in Sources */,
 				64B2D3EB1BC965E000BCF111 /* ChainableOperationInput.swift in Sources */,
+				64F76A701BCC499500F0B4BC /* Promise.swift in Sources */,
 				64B2D3E41BC95D5000BCF111 /* ChainableOperation.swift in Sources */,
 				18725305BE7ABFFE136D1229 /* AsyncOperation.swift in Sources */,
 			);
