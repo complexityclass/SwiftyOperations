@@ -2,11 +2,22 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/AsyncOperation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/ChainableOperation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/ChainableOperationInput.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/ChainableOperationOutput.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/Completable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/CompoundOperationBase.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/MyAsyncOperation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/Observable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/Promise.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftyOperations/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftyOperationsTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftyOperationsTests/SwiftyOperationsTests.swift" isTestSource="false" />

@@ -9,11 +9,33 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    func asyncGet(value: Int) -> Promise<Int> {
+        
+        let promise = Promise(value + 2)
+        
+        return promise
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        let a = asyncGet(6).then { self.asyncGet($0) }.then { self.asyncGet($0)}
         
-        let compoundOp1 = CompoundOperationBase<String?>()
+        print(a)
+
+
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+        
+        
+    }
+
+/*
+let compoundOp1 = CompoundOperationBase<String?>()
         compoundOp1.result = { str , _ in
             if str != nil {
                 print(str)
@@ -41,14 +63,8 @@ class ViewController: UIViewController {
         _ = compoundOp1 ~> compoundOp2
         
         compoundOp1.start()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-        
-        
-    }
+    
+*/
 
 
 }
